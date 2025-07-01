@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 string reverse(string str){
@@ -11,7 +12,7 @@ string reverse(string str){
 int main(){
     string inputstring;
     cout << "Enter a string: ";
-    cin >> inputstring;
+    getline(cin, inputstring);
     string reverseString="";
    
     cout<<"ReversedString:"<<reverse(inputstring)<<endl;
