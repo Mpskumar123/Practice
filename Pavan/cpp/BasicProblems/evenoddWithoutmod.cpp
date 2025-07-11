@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 bool findevenorodd(int num){
-    if((num & 1) == 0){
+    if((num & 1) == 0){   
         return true;
     }
-    return false;
+    return false;     
 }
 int main(){
     int inputnumber;
@@ -18,3 +18,5 @@ int main(){
     return 0;
 
 }
+
+
